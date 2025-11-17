@@ -1,7 +1,0 @@
-Error while loading conda entry point: conda-libmamba-solver (/mnt/hpc/home/weiyongjian/anaconda3/lib/python3.11/site-packages/libmambapy/../../../libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /mnt/hpc/home/weiyongjian/anaconda3/lib/python3.11/site-packages/libmambapy/bindings.cpython-311-x86_64-linux-gnu.so))
-Building DAG of jobs...
-Error: Directory cannot be locked. Please make sure that no other Snakemake process is trying to create the same files in the following directory:
-/mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/test_output_autosbatch/test3and4
-If you are sure that no other instances of snakemake are running on this directory, the remaining lock was likely caused by a kill signal or a power loss. It can be removed with the --unlock argument.
-
-ERROR conda.cli.main_run:execute(124): `conda run snakemake --snakefile /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/autodroprunner/Snakefile_drop.smk --cores 4 -d /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/test_output_autosbatch/test3and4 --rerun-incomplete` failed. (See above for error)
