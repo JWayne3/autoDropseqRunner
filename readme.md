@@ -22,7 +22,7 @@ conda env create -f environment./yaml
 几分钟就能搞定
 
 ```
-conda activate dropRunner
+conda activate autoDropRunner
 ```
 
 ### 构建参考基因组
@@ -63,5 +63,6 @@ python autoDropRunner./py  --input_dir "/autoDropseqRunner/testdata/"  --indices
 如果你使用的不是HPC，你可以在当前的服务器上直接运行，只需要去掉`--autosbatch`参数
 
 ### 输出
+
 
 - 计数矩阵
