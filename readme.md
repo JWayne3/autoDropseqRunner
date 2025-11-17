@@ -35,25 +35,26 @@ STAR --runThreadN 4 --runMode genomeGenerate --genomeDir $OUTDIR --genomeFastaFi
 
 ### 运行管道
 
-管道的输入是一个包含所有样本fastq文件的目录，它的子目录是每一个样本，每一个子目录样本包含这个样本所有的fastq文件，以示例样本为例
+管道的输入是一个包含所有样本fastq文件的目录，它的子目录是每一个样本，每一个子目录样本包含这个样本所有的fastq文件，文件名以_R1.fastq.gz或_R2.fastq.gz结尾。以示例样本为例
 
 ```
 /autoDropseqRunner/testdata/
 ├── test1
-│   ├── pbmc_test1_v3_R1./fastq./gz
-│   └── pbmc_test1_v3_R2./fastq./gz
+│   ├── pbmc_test1_v3_R1.fastq.gz
+│   └── pbmc_test1_v3_R2.fastq.gz
 ├── test3and4
-│   ├── pbmc_test3_v3_R1./fastq./gz
-│   ├── pbmc_test3_v3_R2./fastq./gz
-│   ├── pbmc_test4_v3_R1./fastq./gz
-│   └── pbmc_test4_v3_R2./fastq./gz
+│   ├── pbmc_test3_v3_R1.fastq.gz
+│   ├── pbmc_test3_v3_R2.fastq.gz
+│   ├── pbmc_test4_v3_R1.fastq.gz
+│   └── pbmc_test4_v3_R2.fastq.gz
 └── tset2
-    ├── pbmc_test2_v3_R1./fastq./gz
-    └── pbmc_test2_v3_R2./fastq./gz
+    ├── pbmc_test2_v3_R1.fastq.gz
+    └── pbmc_test2_v3_R2.fastq.gz
 
 4 directories, 8 files
 
 ```
+
 
 运行示例
 ```
@@ -66,4 +67,5 @@ python autoDropRunner./py  --input_dir "/autoDropseqRunner/testdata/"  --indices
 
 
 - 计数矩阵
+
 
