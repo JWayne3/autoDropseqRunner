@@ -57,7 +57,7 @@ STAR --runThreadN 4 --runMode genomeGenerate --genomeDir $OUTDIR --genomeFastaFi
 
 运行示例
 ```
-python autoDropRunner./py  --input_dir "/autoDropseqRunner/testdata/"  --indices /mnt/hpc/home/weiyongjian/genome_ref/hg38/DropseqRunner/ --work_dir /autoDropseqRunner/test_output_autosbatch/  --cores 4  --autosbatch
+python autoDropRunner./py  --input_dir "/autoDropseqRunner/testdata/"  --indices /genome_ref/hg38/DropseqRunner/ --work_dir /autoDropseqRunner/test_output_autosbatch/  --cores 4  --autosbatch
 ```
 
 如果你使用的不是HPC，你可以在当前的服务器上直接运行，只需要去掉`--autosbatch`参数
@@ -66,3 +66,4 @@ python autoDropRunner./py  --input_dir "/autoDropseqRunner/testdata/"  --indices
 
 
 - 计数矩阵
+
