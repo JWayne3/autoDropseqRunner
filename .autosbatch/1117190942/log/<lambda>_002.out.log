@@ -1,0 +1,12 @@
+Process will start at : 
+Mon Nov 17 19:09:47 CST 2025
+----------------------------------------
+Analysis complete for test3and4_1_0_R2.fastq.gz
+Analysis complete for test3and4_1_0_R1.fastq.gz
+Analysis complete for test3and4_0_0_R1.fastq.gz
+Analysis complete for test3and4_0_0_R2.fastq.gz
+{'test3and4_0_0', 'test3and4_1_0'}
+
+========================================
+Process end at : 
+Mon Nov 17 19:10:25 CST 2025

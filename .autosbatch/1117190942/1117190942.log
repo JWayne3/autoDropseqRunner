@@ -1,0 +1,38 @@
+{
+    "<lambda>_000": {
+        "node": "gpu32",
+        "script": "<lambda>_000.sh",
+        "stdout": "<lambda>_000.out.log",
+        "stderr": "<lambda>_000.err.log",
+        "cmd": [
+            "conda run -n autoDropRunner snakemake --snakefile /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/autodroprunner/Snakefile_drop.smk --cores 4 -d /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/test_output_autosbatch/tset2 --rerun-incomplete"
+        ]
+    },
+    "<lambda>_001": {
+        "node": "gpu04",
+        "script": "<lambda>_001.sh",
+        "stdout": "<lambda>_001.out.log",
+        "stderr": "<lambda>_001.err.log",
+        "cmd": [
+            "conda run -n autoDropRunner snakemake --snakefile /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/autodroprunner/Snakefile_drop.smk --cores 4 -d /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/test_output_autosbatch/test1 --rerun-incomplete"
+        ]
+    },
+    "<lambda>_002": {
+        "node": "gpu19",
+        "script": "<lambda>_002.sh",
+        "stdout": "<lambda>_002.out.log",
+        "stderr": "<lambda>_002.err.log",
+        "cmd": [
+            "conda run -n autoDropRunner snakemake --snakefile /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/autodroprunner/Snakefile_drop.smk --cores 4 -d /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/test_output_autosbatch/test3and4 --rerun-incomplete"
+        ]
+    },
+    "<lambda>_003": {
+        "node": "gpu38",
+        "script": "<lambda>_003.sh",
+        "stdout": "<lambda>_003.out.log",
+        "stderr": "<lambda>_003.err.log",
+        "cmd": [
+            "conda run -n autoDropRunner snakemake --snakefile /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/autodroprunner/Snakefile_drop.smk --cores 4 -d /mnt/hpc/home/weiyongjian/tool_installations/autoDropseqRunner/test_output_autosbatch/test3and4 --rerun-incomplete"
+        ]
+    }
+}
