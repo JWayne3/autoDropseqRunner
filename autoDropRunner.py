@@ -91,7 +91,6 @@ def main():
         print("使用 autosbatch 批量提交任务...")
         pool = SlurmPool(pool_size=None, 
                          ncpus_per_job=args.cores, 
-                         job_name='autoDropRunner',
                          max_jobs_per_node=1)
         all_cmds = []
         for sname, pairs in samples.items():
@@ -121,4 +120,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
